@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+	background-color: hsl(185, 75%, 39%);
+	font-family: 'Kumbh Sans', sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+	background-repeat: no-repeat, no-repeat;
+	background-position: right 50vw bottom 20vh, left 45vw top 45vh;
+
+}
+
+p {
+
+	color: hsl(0, 0%, 59%);
+}
+
+
+#top {
+
+	position: absolute;
+	bottom: 20em;
+	right: 34em;
+	width: 40em;
+}
+
+#bottom {
+
+	width: 40em;
+	position: absolute;
+	bottom: 0;
+	left: 10;
+}
+
+.tarjeta-full {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.tarjeta {
+
+	z-index: 1000;
+	position: relative;
+	width: 35%;
+	background-color: #fff;
+	border-radius: 15px;
+	height: 26em;
+}
+
+
+.profile-top {
+
+	
+	border-radius: 15px 15px 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url("images/bg-pattern-card.svg");
+	background-size: cover;
+	height: 40%;
+}
+
+.profile-top img {
+
+	border-radius: 50px;
+	border: solid 5px #fff;
+	position: relative;
+	top: 50%;
+
+}
+
+.profile-bottom {
+
+	margin-top: 80px;
+}
+
+.profile-bottom #country {
+
+	position: relative;
+	top: 20px;
+}
+
+.name p{
+
+	margin-left: 10px;
+	font-size: 18px; 
+}
+
+.name, p, h3{
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.numbers {
+
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: solid 1px hsl(0, 0%, 80%);
+	padding: 22px 15px;
+}
+
+.stats h3 {
+
+	font-size: 18px;
+}
+
+.stats p {
+
+	margin-top: 12px;
+	font-size: 15px;
+}
+
+@media (max-width: 700px) {
+
+	.tarjeta {
+
+		width: 80%;
+	}
+}
