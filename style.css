@@ -53,7 +53,7 @@ p {
 
 	z-index: 1000;
 	position: relative;
-	max-width: 25em;
+	width: 25em;
 	background-color: #fff;
 	border-radius: 15px;
 	height: 26em;
