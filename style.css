@@ -132,6 +132,6 @@ p {
 
 	.tarjeta {
 
-		width: 80%;
+		max-width: 25em;
 	}
 }
